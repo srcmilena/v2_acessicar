@@ -15,7 +15,7 @@ Projeto proposto pela Recode Pro e desenvolvido em squad, onde foi solicitado a 
   <img src="https://res.cloudinary.com/srcmilena/image/upload/v1648757311/v2_acessicar_contato_khl5g4.png"/>
 </div>
 
-## Anúncio da plataforma da Recode Pro:
+## Anúncio na plataforma da Recode Pro:
 
 "O projeto final, desenvolvido em grupo, será desenvolvido em 4 etapas. Planejamos dessa forma para que o seu squad tenha a oportunidade de esclarecer possíveis dúvidas ao longo do seus  desenvolvimento, e para que as entregas também avancem em complexidade, conforme vocês também avançam no estudo.
 
