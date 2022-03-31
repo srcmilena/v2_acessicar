@@ -15,8 +15,11 @@ O site está hospedado no endereço http://srcmilena-001-site1.dtempurl.com/
 
 Vamos para a evolução do projeto. Considere nesta entrega: 
 
+### Banco de dados
 Persistência em banco de dados (inserir, atualizar, excluir e consultar dados), com recursos de interface já usados anteriormente e a atualização das classes em C# ou Java.  
 
-Front-end usando Bootstrap 
+### Back end
+Refactory das classes em C# / Java para atender as novas funcionalidades.
 
-Refactory das classes em C# / Java para atender as novas funcionalidades"
+### Front end 
+Usando Bootstrap."
