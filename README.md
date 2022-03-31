@@ -1,51 +1,22 @@
-<<<<<<< HEAD
 # AcessiCar
-Um projeto proposto pela Recode onde precisamos criar uma solução tecnologica para grupos  minoritários, ficamos responsaveis pelo grupo os PCD's . Desenvolvemos uma aplicação em C# e bootstrap com hospedagem  no link : http://srcmilena-001-site1.dtempurl.com/. O projeto foi desenvolvido por todo Squard. 
-=======
-# O Projeto Final desenvolvido em grupo será desenvolvido em 4 etapas. Planejamos dessa forma para que o seu squad tenha a oportunidade de esclarecer possíveis dúvidas ao longo do seus  desenvolvimento, e para que as entregas também avancem em complexidade, conforme vocês também avançam no estudo
+Projeto proposto pela Recode Pro e desenvolvido em squad, onde foi solicitado a criação de solução tecnológica para grupos minoritários. O squad 23 ficou com o nicho de PCD's. A partir daí, foram abordadas diversas situações e necessidades, onde foi filtrado e decidido o desenvolvimento de uma aplicação que fosse voltada ao transporte urbano para pessoas que possuem dificuldades com a mobilidade física, focando em cadeirantes.
 
-3ª entrega - Entrega até 15/02/2022
-Olá, Squad,  
+O site está hospedado no endereço http://srcmilena-001-site1.dtempurl.com/
 
- 
+*   Esta versão é uma atualização do projeto, onde foram aplicadas algumas funções e corrigidos alguns bugs;
 
-Vamos para a evolução do projeto.  Considere nesta entrega: 
+*   Esta versão é referente à 3ª entrega do projeto, que aconteceu no módulo 4 do curso de desenvolvimento full stack.
 
- 
 
-Persistência em Banco de Dados (inserir, atualizar, excluir e consultar dados), com recursos de interface já usados anteriormente e a atualização das classes em C# ou Java.  
 
- 
+## Anúncio da plataforma da Recode Pro:
+
+"O projeto final, desenvolvido em grupo, será desenvolvido em 4 etapas. Planejamos dessa forma para que o seu squad tenha a oportunidade de esclarecer possíveis dúvidas ao longo do seus  desenvolvimento, e para que as entregas também avancem em complexidade, conforme vocês também avançam no estudo.
+
+Vamos para a evolução do projeto. Considere nesta entrega: 
+
+Persistência em banco de dados (inserir, atualizar, excluir e consultar dados), com recursos de interface já usados anteriormente e a atualização das classes em C# ou Java.  
 
 Front-end usando Bootstrap 
 
- 
-
-Refactory das classes em C# / Java para atender as novas funcionalidades 
-
-  
-
-Orientações gerais para a entrega :
-
-Compartilhe na área de entrega aqui do ambiente virtual de aprendizagem o link do GITHUB e inclua no repositório:
-
-Vídeo demo da solução desenvolvida até o momento;
-
-O  código-fonte;
-
-E o link da aplicação funcional.
-
- 
-
- Não esqueça de incorporar ppt da apresentação as informações sobre as melhorias empregadas depois da devolutiva da equipe do Recode Pro  na etapa anterior.
-
-Observem o que será avaliado quanto a parte técnica:
-
-
-
-Bom trabalho a todos 
-
-
-
-3ª entrega - 15/02/2022Tarefa
->>>>>>> 31c84e61fbb259685f4151147221f98cbc610b68
+Refactory das classes em C# / Java para atender as novas funcionalidades"
