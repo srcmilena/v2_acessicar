@@ -1,0 +1,268 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+}
+
+headerindexsobre {
+    width: 100%;
+    height: 0.7vh;
+    background: none;
+}
+
+.controle {
+    margin-top:92px;
+
+}
+
+.content {
+    width: 94%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 15px 5px;
+    color: #FFFEA3;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 295px;
+    padding-right: 0px;
+    padding-left: 15px;
+}
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0.514);
+    overflow: hidden;
+    color: #FFFEA3;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 40px;
+    transition: 5s;
+}
+
+nav.black ul {
+    background: #2A3057;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FFFEA3;
+    font-size: 16px;
+}
+
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #2A3057;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #FFFEA3;
+    display: none;
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color:#1a1d33;
+    text-decoration:none;
+    border-radius: 7px;
+}
+
+nav a:hover {
+    color:white;
+    text-decoration:none;
+}
+
+.mynav{
+    position: absolute;
+  }
+.home{
+    position: absolute;
+}
+
+@media(max-width: 900px) {
+
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+    }
+
+    nav ul {
+          max-height: 0px;
+          background: #2A3057;
+    }
+
+    nav.black ul {
+          background: #2A3057;
+    }
+
+    .showing {
+          max-height: 60em;
+    }
+
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 10px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+          text-decoration: none;
+    }
+
+}
+
+.jumbotron-with-background {
+    background-image: url(../imgs/equipe.jpg);
+    background-blend-mode: multiply;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron-with-background2 {
+    background-image: url(../imgs/foto1.jpg);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron-with-background3 {
+    background-image: url(../imgs/covid.jpg);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron-with-background4 {
+    background-image: url(../imgs/carroacesso2.jfif);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron-with-background5 {
+    background-image: url(../imgs/carroacesso2.jfif);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron-with-background6 {
+    background-image: url(../imgs/jumbomotorista.jpg);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron-with-background7 {
+    background-image: url(../imgs/jumbopassageiro.jpg);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron-with-background8 {
+    background-image: url(../imgs/jumbocontato.jpg);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.carouseltext {
+    color: #fdfcc7;
+    text-shadow: black 0.1em 0.1em 0.3em;
+}
+
+.carousel {
+    text-shadow: black 0.1em 0.1em 0.3em;
+}
+
+
+.menu2 {
+    color: #fbfbfb;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+
+}
+
+.menu2 li:hover {
+    background-color:#6e6e70a9;
+    text-decoration:none;
+    border-radius: 3px;
+}
+
+.menu2 a:hover {
+    color:white;
+    text-decoration:none;
+}
+
+.menu2 ul li a {
+    color: #fdfcc7;
+    text-decoration: none;
+}
+
+.menu2 ul {
+    list-style: none;
+}
+
+.alinhamentomenu{
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bgcontaineracesso {
+    background-color: rgb(20, 29, 63);
+}
+
+
+.divbreak {
+    display: inline;
+    width: 100%;
+    flex-wrap: wrap;
+    overflow-x:scroll;
+    
+}
+
+

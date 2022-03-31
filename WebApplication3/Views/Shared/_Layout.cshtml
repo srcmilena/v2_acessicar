@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebApplication3</title>
+    <!-- Nav bar superior -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- FIM Nav bar superior -->
+   
+   
+    <!-- CSS do site -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/styleacessicar.css">
+    <!-- FIM CSS do site -->
+
+
+     <!-- CSS utilizados -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">    
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- Fim CSS utilizados -->
+    
+
+
+</head>
+
+
+<body>
+    <header>
+       
+    </header>
+    <div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - AcessiCAR - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+
+     <!-- Nav bar superior -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+   <!-- FIM Nav bar superior -->
+
+    <!-- JS Nav bar superior -->
+    <script src="~/js/javas.js" asp-append-version="true"></script>
+    <!-- FIM Nav bar superior -->
+
+
+    <!-- JS padrão do code -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+    <!-- FIM JS padrão do code -->
+
+    
+     <!-- JS utilizados -->
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <!-- Fim JS utilizados -->
+
+      <!-- Outros -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script></>
+    <!-- Fim Outros -->
+
+
+
+
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+
+
+    <!-- Início Footer / Menu inferior -->
+<footer>
+
+	<div class="container-fluid mx-auto">
+		<div class="card-deck card text-white bg-dark mb-3">
+			<div class="card text-white bg-dark mb-3 border-0 mx-auto" style="max-width: 18rem;">
+
+				<div class="card-body menu2">
+					<h5 class="card-title">Navegação</h5>
+					<ul>
+						<li><a asp-action="Index">Home</a></li>
+						<li><a asp-action="Sobre">Sobre</a></li>
+						<li><a asp-action="Passageiro">Passageiro</a></li>
+						<li><a asp-action="Motorista">Motorista</a></li>
+
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="card text-white bg-dark mb-3 border-0 mx-auto" style="max-width: 18rem;">
+
+				<div class="card-body menu2">
+					<h5 class="card-title">Suporte</h5>
+					<ul>
+						<li><a href="#">Contato</a></li>
+
+					</ul>
+				</div>
+			</div>
+
+			<div class="card text-white bg-dark mb-3 border-0 mx-auto" style="max-width: 18rem;">
+
+				<div class="card-body menu2">
+					<h5 class="card-title">Redes Sociais</h5>
+					<ul>
+						<a href="#"><img src="~/imgs/face.png" width="20%"></a>
+						<a href="#"><img src="~/imgs/insta.png" width="20%"></a>
+						<a href="#"><img src="~/imgs/zap.png" width="20%"></a>
+
+					</ul>
+				</div>
+			</div>
+
+
+
+			<div class="card text-white bg-dark mb-3 border-0 mx-auto" style="max-width: 18rem;">
+
+				<div class="card-body menu2">
+					<h5 class="card-title">Pagamento</h5>
+					<ul>
+						<img src="~/imgs/master.png" width="25%">
+						<img src="~/imgs/maestro.png" width="25%">
+						<img src="~/imgs/paypal.png" width="25%">
+						<br>
+						<br>
+						<img src="~/imgs/visa.png" width="25%">
+						<img src="~/imgs/citi.png" width="25%">
+						<img src="~/imgs/transfer.png" width="25%">
+
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="card text-white bg-dark mb-3 border-0 mx-auto" style="max-width: 18rem;">
+
+				<div class="card-body menu2">
+					<h5 class="card-title">Certificação</h5>
+					<ul>
+						<img src="~/imgs/siteprotegido.png" width="40%">
+						<br>
+						<br>Ambiente Seguro
+						<br>
+						<br>
+
+
+					</ul>
+				</div>
+			</div>
+
+
+			<div class="card text-white bg-dark mb-1 border-0 mx-auto" style="max-width: 18rem;">
+				<div style="width: 120%;">
+					<div class="card-body menu2">
+						<h5 class="card-title">Razão Social</h5>
+						<ul>
+							AcessiCAR Transporte Acessível
+							<br>
+							<br>
+							Reg.CNPJ 99.999.999/0001-10
+							<br>
+							Av. das camélias, 1000 - Sl. 301
+							<br>
+							Ipanema - Rio de Janeiro
+							<br>
+							CEP 21000-020
+
+
+
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+	</div>
+</footer>
+<!-- Fim Início Footer / Menu inferior -->
+</body>
+</html>

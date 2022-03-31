@@ -1,0 +1,168 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<!-- VERSÃO FINAL DO ARQUIVO -->
+<!-- jumbotron Cabeçalho-->
+  <div class="jumbotron jumbotron-with-background text-light bg-secondary">
+
+
+      <!-- Início Menu -->
+  <header class="controle">
+        <nav class="navbar-expand-xl navbar-dark fixed-top mynav">
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+
+          <div class="logo">
+                    <img src="imgs/AcessiCARlogo2transp.png" width="150px" height="50px">
+            AcessiCAR
+          </div>
+
+          <div class="menu">
+            <ul> <li>Acessibilidade: &nbsp;&nbsp;  
+                 <a href="#" onclick="diminuir()">  A- |</a> 
+                 <a href="#" onclick="aumentar()">  A+ |</a>
+                <ion-icon name="contrast-outline" onclick="pretoebranco()" class="iconcursor"></ion-icon></li>
+              
+
+
+                <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="Sobre">Sobre</a></li>
+                <li><a asp-area="" asp-controller="Passageiroes" asp-action="Create">Passageiro</a></li>
+                <li><a asp-area="" asp-controller="Motorista" asp-action="Index">Motorista</a></li>
+                <li><a asp-area="" asp-controller="Contatoes" asp-action="Create">Contato</a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacidade</a></li>
+               
+
+            </ul>
+          </div>
+        </nav>
+</header>
+<!-- Fim Menu -->
+
+    <br><br>
+    <h1 class="display-4">Quem somos</h1>
+    
+    <p class="lead">Uma empresa inovadora em transportes acessíveis</p>
+  </div>
+
+ 
+  <!-- Início Container -->
+
+
+  <div class="container">
+    <div>
+      <h2>AcessiCAR veículos acessíveis</h2>
+      <p>Nós somos uma empresa
+        especializada em transporte de pessoas com necessidades especiais,
+        nosso carro adaptado, é projetado com rampas de acesso ou elevador que
+        pode ser acionado por controle interno ou remoto,
+        para facilitar o acesso ao veículo sem a necessidade do passageiro
+        ter que sair de sua cadeira de rodas.
+
+        <p>O transporte é feito por quem entende
+          de acessibilidade. O carro contém um dispositivo de travamento que impede
+          a movimentação da cadeira enquanto o passageiro está em sua viagem,
+          cinto de segurança com mecanismo retrátil instalado na parte de trás
+          do carro, colete peitoral que auxilia no transporte, sistema de frenagem
+          ABS e Airbags para passageiro e motorista e tomada de 110v
+          para necessidade de aparelhos eletrônicos ou respiratórios.
+          Nossos profissionais possuem experiência e treinamento constantes para,
+          com segurança e cortesia, atender os mais variados tipos de deficiência.
+        </p>
+
+
+      </p><br>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="container">
+
+
+
+      <center><img src="~/imgs/carroacesso3.jpg" width="50%" height="50%"> </center>
+    </div>
+    <br>
+  </div>
+
+
+  <!-- Início jumbotron -->
+  <div class="jumbotron jumbotron-with-background2 text-light bg-secondary">
+    <h1 class="display-4">Missão, Visão e Valores</h1>
+    <p class="lead">Uma empresa inovadora</p>
+
+  </div>
+  <!-- Fim jumbotron -->
+
+  <div class="container">
+    <div>
+      <img src="~/imgs/3.png" width="100%" height="100%">
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div>
+      <img src="~/imgs/4.png" width="100%" height="100%">
+    </div>
+
+  </div>
+
+  <br>
+  <div class="container">
+    <div>
+      <img src="~/imgs/5.png" width="100%" height="100%">
+    </div>
+
+  </div>
+  <br>
+
+  <!-- Início jumbotron -->
+  <div class="jumbotron jumbotron-with-background4 text-light bg-secondary">
+    <h1 class="display-4">Mobilidade para Empresas</h1>
+    <p class="lead">Transforme a mobilidade da equipe de sua empresa.</p>
+
+  </div>
+
+  <!-- Fim jumbotron -->
+
+  <div class="container">
+    <div>
+      <img src="~/imgs/empresasbanner.png" width="100%" height="100%">
+    </div>
+  </div>
+  <br><br>
+
+
+  <!-- Início jumbotron -->
+  <div class="jumbotron jumbotron-with-background3 text-light bg-secondary">
+    <h1 class="display-4">Protocolos COVID-19</h1>
+    <p class="lead"></p>
+
+  </div>
+  <!-- Fim jumbotron -->
+
+  <div class="container">
+    <div>
+      <center><img src="~/imgs/coronacuidados.jpg" width="70%" height="70%"></center>
+    </div>
+
+  </div>
+
+  <br>
+  <div class="container">
+    <div>
+      <center>
+        <iframe class="embed-responsive-item" width="600" height="345" position="center"
+          src="https://www.youtube.com/embed/uE3tCPcckeE" title="Cuidado" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </center>
+    </div>
+    <br>
+  </div>
+
+
+   

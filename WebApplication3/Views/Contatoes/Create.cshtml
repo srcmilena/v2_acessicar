@@ -1,0 +1,100 @@
+﻿@model WebApplication3.Models.Contato
+
+@{
+    ViewData["Title"] = "Contato";
+}
+
+<!-- jumbotron Cabeçalho-->
+  <div class="jumbotron jumbotron-with-background8 text-light bg-secondary">
+
+      <!-- Início Menu -->
+    <header class="controle">
+        <nav class="navbar-expand-xl navbar-dark fixed-top mynav">
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+
+          <div class="logo">
+            <img src="~/imgs/AcessiCARlogo2transp.png" width="20%" height="20%">
+            AcessiCAR
+          </div>
+
+          <div class="menu">
+            <ul> <li>Acessibilidade: &nbsp;&nbsp;  
+                 <a href="#" onclick="diminuir()">  A- |</a> 
+                 <a href="#" onclick="aumentar()">  A+ |</a>
+                <ion-icon name="contrast-outline" onclick="pretoebranco()" class="iconcursor"></ion-icon></li>
+              
+
+
+                <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="Sobre">Sobre</a></li>
+                <li><a asp-area="" asp-controller="Passageiroes" asp-action="Create">Passageiro</a></li>
+                <li><a asp-area="" asp-controller="Motorista" asp-action="Index">Motorista</a></li>
+                <li><a asp-area="" asp-controller="Contatoes" asp-action="Create">Contato</a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacidade</a></li>
+               
+
+            </ul>
+          </div>
+        </nav>
+</header>
+<!-- Fim Menu -->
+
+<br><br>
+    <h1 class="display-4">Entre em contato conosco</h1>
+    <p class="lead">Transforme a mobilidade do seu dia</p>
+  </div>
+
+  <!-- Fim jumbotron Cabeçalho -->
+
+<div class="container color mt-5 rounded shadow">
+    <div class="row align-items-stretch">
+    <div class="col d-none d-lg-block rounded bg-white"> 
+        <img src="https://appassets.mvtdev.com/map/131/s/322/53505684.jpg" alt="Endereço do AcessiCar" >
+    </div>
+
+    <div class="col rounded-end">
+       <h4 class="fw-bold text-center py-5 text-color">Entre em contato conosco!</h4>
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group text-color">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group text-color">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group text-color">
+                <label asp-for="Menssagem" class="control-label"></label>
+                <input asp-for="Menssagem" class="form-control" />
+                <span asp-validation-for="Menssagem" class="text-danger"></span>
+            </div>
+            <div class="container w-100 my-5">
+            <div class="row">
+                <div class="col">
+           <input type="submit" value="Cadastrar" class="btn btn-outline-primary w-100 my-1" />
+            </div>
+            <div class="col">
+               <a asp-action="Index" class="btn btn-outline-danger w-100 my-1">Voltar</a>
+               </div>
+            </div>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+
+<p><center>
+    <a asp-action="Index" class="btn btn-outline-primary w-30 my-1">Consultar Contatos</a>
+    </center>
+</p>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

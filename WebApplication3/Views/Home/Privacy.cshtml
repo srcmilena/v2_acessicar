@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Política de Privacidade";
+}
+<!-- VERSÃO FINAL DO ARQUIVO -->
+<!-- Início Menu -->
+    <header class="controle">
+        <nav class="navbar-expand-xl navbar-dark fixed-top mynav">
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+
+          <div class="logo">
+                    <img src="imgs/AcessiCARlogo2transp.png" width="150px" height="50px">
+            AcessiCAR
+          </div>
+
+          <div class="menu">
+            <ul> <li>Acessibilidade: &nbsp;&nbsp;  
+                 <a href="#" onclick="diminuir()">  A- |</a> 
+                 <a href="#" onclick="aumentar()">  A+ |</a>
+                <ion-icon name="contrast-outline" onclick="pretoebranco()" class="iconcursor"></ion-icon></li>
+              
+
+
+                <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="Sobre">Sobre</a></li>
+                <li><a asp-area="" asp-controller="Passageiroes" asp-action="Create">Passageiro</a></li>
+                <li><a asp-area="" asp-controller="Motorista" asp-action="Index">Motorista</a></li>
+                <li><a asp-area="" asp-controller="Contatoes" asp-action="Create">Contato</a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacidade</a></li>
+               
+
+            </ul>
+          </div>
+        </nav>
+    </header>
+<!-- Fim Menu -->
+
+<h1>@ViewData["Title"]</h1>
+
+
+<p>Página destina para termos e regras da empresa.</p>
+<p>Em construção.</p>

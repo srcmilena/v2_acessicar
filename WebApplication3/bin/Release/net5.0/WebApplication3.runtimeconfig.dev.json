@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\macie.DESKTOP-IE2FANC\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\macie.DESKTOP-IE2FANC\\.nuget\\packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+    ]
+  }
+}

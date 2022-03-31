@@ -1,0 +1,94 @@
+﻿@model IEnumerable<WebApplication3.Models.Motorista>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<!-- VERSÃO FINAL DO ARQUIVO -->
+
+
+
+
+
+    <!-- jumbotron Cabeçalho-->
+
+    <div class="jumbotron jumbotron-with-background6 text-light bg-secondary">
+        <!-- Início Menu -->
+        <header class="controle">
+    <nav class="navbar-expand navbar-dark fixed-top mynav">
+        <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+        </div>
+
+        <div class="logo">
+                    <img src="imgs/AcessiCARlogo2transp.png" width="150px" height="50px">
+            AcessiCAR
+        </div>
+
+        <div class="menu">
+            <ul> <li>Acessibilidade: &nbsp;&nbsp;  
+                 <a href="#" onclick="diminuir()">  A- |</a> 
+                 <a href="#" onclick="aumentar()">  A+ |</a>
+                <ion-icon name="contrast-outline" onclick="pretoebranco()" class="iconcursor"></ion-icon></li>
+              
+
+
+                <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="Sobre">Sobre</a></li>
+                <li><a asp-area="" asp-controller="Passageiroes" asp-action="Create">Passageiro</a></li>
+                <li><a asp-area="" asp-controller="Motorista" asp-action="Index">Motorista</a></li>
+                <li><a asp-area="" asp-controller="Contatoes" asp-action="Create">Contato</a></li>
+                <li><a asp-area="" asp-controller="Home" asp-action="Privacy">Privacidade</a></li>
+               
+
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<br><br>
+
+
+        <h1 class="display-4">Motoristas Parceiros</h1>
+        <p class="lead">Transforme a mobilidade do seu dia.</p>
+    </div>
+
+    <!-- Fim jumbotron Cabeçalho -->
+    <div class="container">
+        <div class="card-deck">
+            <div class="divbreak">            
+            <table width="50%" border="0" cellpadding="30px">
+                <tr rowspan="1" width="20%" vertical-align="top">
+                    @foreach (var item in Model)
+                    {
+                        <td width="20%" align="center" vertical-align="bottom">
+                            <div class="card" style="width: 18rem;background-color: #2A3057; color:#FFFEA3">
+                                <img src="~/imgs/anonimo.jpeg" class="card-img-top" alt="..." width="300px" height="300px">
+                                <div class="card-body">
+                                    <p class="card-title">
+                                        Nome: @Html.DisplayFor(modelItem => item.Nome)
+                                    </p>
+                                    <p class="card-text">
+                                        ID: @Html.DisplayFor(modelItem => item.Id)
+                                        <br />
+                                        Telefone: @Html.DisplayFor(modelItem => item.Telefone)
+                                        <br />
+                                        E-mail: @Html.DisplayFor(modelItem => item.Email)
+                                    </p>
+                                    <a href="#" class="btn btn-primary">Contratar</a>
+                                    <br><br>
+                                    <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                                    <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                                    <a asp-action="Delete" asp-route-id="@item.Id">Excluir</a>
+                                  </div>
+                             </div>        
+                        </td>
+                    }
+                     </tr>      
+               </table>  
+          </div>
+     </div>
+</div>
+
+<!-- Fim Front Milena -->
+
+<center><a class="btn btn-primary" asp-controller="Motorista" asp-action="Create">Seja um motorista Parceiro!</a></center>
