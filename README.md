@@ -1,12 +1,10 @@
 # AcessiCar
-Projeto proposto pela Recode Pro e desenvolvido em squad, onde foi solicitado a criação de uma solução tecnológica para algum grupo minoritário. O squad 23 ficou com o nicho de PCD's. A partir daí, foram abordadas diversas situações e necessidades, onde foi filtrado e decidido o desenvolvimento de uma aplicação que fosse voltada ao transporte urbano para pessoas que possuem dificuldades com a mobilidade física, focando em cadeirantes.
+### 3rd project submission, module 4
+Project proposed by Recode and developed in a squad, where it was requested the creation of a technological solution for a minority group. The squad 23 was the niche for PwD's. From there, several situations and needs were approached, where it was filtered and decided to develop an application focused on urban transportation for people who have difficulties with physical mobility, focusing on wheelchair users.
 
-Apresentação do pitch: https://youtu.be/mKjvRY-jUPg
+Pitch presentation: https://youtu.be/mKjvRY-jUPg
 
-
-*   Esta versão é uma atualização do projeto, onde foram aplicadas algumas funções e corrigidos alguns bugs;
-
-*   Esta versão é referente à 3ª entrega do projeto, que aconteceu no módulo 4 do curso de desenvolvimento full stack.
+*   This version is an update of the project itself, where some functions have been applied and some bugs have been fixed
 
 <div align="center">
   <img src="https://res.cloudinary.com/srcmilena/image/upload/v1648757312/v2_acessicar_home_hxvgxi.png"/>
@@ -16,17 +14,14 @@ Apresentação do pitch: https://youtu.be/mKjvRY-jUPg
   <img src="https://res.cloudinary.com/srcmilena/image/upload/v1648757311/v2_acessicar_contato_khl5g4.png"/>
 </div>
 
-## Anúncio na plataforma da Recode Pro:
+## Our assignment
+This was the final version of the project, where we had 4 steps to complete, which are:
 
-"O projeto final, desenvolvido em grupo, será desenvolvido em 4 etapas. Planejamos dessa forma para que o seu squad tenha a oportunidade de esclarecer possíveis dúvidas ao longo do seus  desenvolvimento, e para que as entregas também avancem em complexidade, conforme vocês também avançam no estudo.
-
-Vamos para a evolução do projeto. Considere nesta entrega: 
-
-### Banco de dados
-Persistência em banco de dados (inserir, atualizar, excluir e consultar dados), com recursos de interface já usados anteriormente e a atualização das classes em C# ou Java.  
+### Database
+Database persistence (insert, update, delete and read data), with interface resources already used before and the update of classes in C# or Java. 
 
 ### Back end
-Refactory das classes em C# / Java para atender as novas funcionalidades.
+Refactory of the classes in C#/Java to meet the new functionalities.
 
 ### Front end 
-Usando Bootstrap."
+Using Bootstrap.
