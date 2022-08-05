@@ -17,11 +17,17 @@ Pitch presentation: https://youtu.be/mKjvRY-jUPg
 ## Our assignment
 This was the final version of the project, where we had 4 steps to complete, which are:
 
+***
+
 ### Database
 Database persistence (insert, update, delete and read data), with interface resources already used before and the update of classes in C# or Java. 
 
+***
+
 ### Back end
 Refactory of the classes in C#/Java to meet the new functionalities.
+
+***
 
 ### Front end 
 Using Bootstrap.
